@@ -13,7 +13,7 @@ There is a tree.
 
 
 {hiTree == false:
-    #IMAGE: images/tree.png
+    #IMAGE: images/tree.jpg
 }
 
 {hiTree:
@@ -21,9 +21,12 @@ There is a tree.
     "Hello."
 }
 
-{hiAmount == 10:
+{hiAmount == 2:
 "Shut up!
+# AUDIO: audio/shortHorn.wav
 }
+
+
 
 +Say hi to the tree. ->hiTreeRoom
 
