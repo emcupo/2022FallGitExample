@@ -12,8 +12,12 @@ Once upon a time...
 There is a tree.
 
 
+{hiTree == false:
+    #IMAGE: images/tree.png
+}
+
 {hiTree:
-#IMAGE: images/basictree.png
+    #IMAGE: images/cartoontree.png
     "Hello."
 }
 
